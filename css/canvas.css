@@ -1,0 +1,57 @@
+#canvas{
+   
+    background: url(../img/fondo2.jpg);
+    width: 95%;
+    display: block;
+    padding-left: 10%;
+    padding-right: 20%;
+}
+
+@media screen and (max-width: 480px){
+    /*Estilos para moviles*/
+    #canvas{
+   
+        background: url(../img/fondomoviles.jpg);
+        width: 95%;
+        display: block;
+        padding-left: 10%;
+        padding-right: 20%;
+    }
+}
+/*
+@media screen and (min-width: 481px) and (max-width: 480px){
+    
+    #canvas{
+   
+        background: url(../img/fondotablet.jpg);
+        width: 95%;
+        display: block;
+        padding-left: 10%;
+        padding-right: 20%;
+    }
+}
+*/
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    /*Estilos para tablets*/
+    #canvas{
+   
+        background: url(../img/fondotablet.jpg);
+        width: 95%;
+        display: block;
+        padding-left: 10%;
+        padding-right: 20%;
+    }
+}
+
+@media screen and (min-width: 769px){
+    /*Estilos para PC*/
+    #canvas{
+   
+        background: url(../img/fondo2.jpg);
+        width: 95%;
+        display: block;
+        padding-left: 10%;
+        padding-right: 20%;
+    }
+}
